@@ -5,9 +5,9 @@ import './index.css';
 
 function Header() {
   return (
-    <div className="Header">
+    <div className="header">
       <header className="header-container">
-        <img src={logo} alt="Windbnb" className="home-logo" />
+        <img src={logo} alt="Windbnb" className="header-logo" />
         <SearchBox />
       </header>
     </div>

@@ -11,7 +11,7 @@
   width: 297px;
 }
 
-#location {
+.search-box-location-input {
   margin-left: 10px;
   border: none;
   border-right: 1px solid #f2f2f2;
@@ -25,7 +25,7 @@
   color: #333333;
 }
 
-#guests {
+.search-box-guests-input {
   border: none;
   border-right: 1px solid #f2f2f2;
   width: 98px;
@@ -39,10 +39,11 @@
   color: #333333;
 }
 
-#guests::placeholder {
+.search-box-guests-input::placeholder {
   color: #bdbdbd;
 }
-.icon {
+
+.search-box-icon-container {
   width: 53px;
   display: flex;
   align-items: center;

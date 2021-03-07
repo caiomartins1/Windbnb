@@ -4,21 +4,27 @@ import './index.css';
 function SearchBox() {
   return (
     <div className="search-box">
-      <div className="location">
+      <div className="search-box-location-container">
         <input
           type="text"
           name="location"
-          id="location"
+          className="search-box-location-input"
           value="Helsinki, Finland"
         />
       </div>
-      <div className="guests">
-        <input type="text" name="guests" id="guests" placeholder="Add Guest" />
+
+      <div className="search-box-guests-container">
+        <input
+          type="text"
+          name="guests"
+          className="search-box-guests-input"
+          placeholder="Add Guest"
+        />
       </div>
-      <div className="icon">
+      <div className="search-box-icon-container">
         <i
           className="material-icons"
-          style={{ fontSize: '32px', color: '#EB5757' }}
+          style={{ width: '17px', height: '17px', color: '#EB5757' }}
         >
           search
         </i>
